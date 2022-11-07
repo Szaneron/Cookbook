@@ -1,0 +1,84 @@
+.container-edit-recipe {
+}
+
+.container-edit-recipe .edit-background {
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: auto;
+  background-color: #999999;
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.container-edit-recipe .edit-recipe-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.container-edit-recipe .edit-recipe-label {
+  margin-top: 8px;
+  margin-bottom: 2px;
+  font-size: 1.1rem;
+}
+.container-edit-recipe .edit-recipe-field {
+  font-size: 1rem;
+}
+
+.container-edit-recipe .textField {
+  width: 75%;
+}
+
+.container-edit-recipe .textArea {
+  width: 75%;
+  height: 150px;
+  resize: none;
+}
+
+.container-edit-recipe .cookingTime {
+  width: 7rem;
+  height: 25px;
+  text-align: center;
+}
+
+.container-edit-recipe .price {
+  width: 7rem;
+  height: 25px;
+  text-align: center;
+}
+
+.container-edit-recipe .level {
+  width: 7rem;
+  height: 25px;
+  text-align: center;
+}
+
+.container-edit-recipe .media-links {
+  width: 75%;
+  height: 25px;
+  text-align: center;
+}
+
+.container-edit-recipe .edit-recipe-saveButton {
+  background-color: #1c89ff;
+  border-radius: 1.5rem;
+  width: 15rem;
+  border: solid 1px transparent;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: white;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.4s ease-in-out;
+  margin: 25px 10px 10px 10px;
+
+  &:hover {
+    background-color: #5199ff;
+    border-color: #fff;
+    transition: all 0.2s ease-in-out;
+  }
+}

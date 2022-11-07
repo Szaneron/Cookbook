@@ -1,0 +1,119 @@
+.recipe-list {
+  text-align: center;
+}
+
+.recipe-sort {
+  margin: 0 0 5px 0;
+}
+
+.title {
+  justify-content: space-between;
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+}
+.btnMenu {
+  right: 45px;
+  position: absolute;
+  justify-content: right;
+  text-align: center;
+  display: inline-block;
+  background: #5b4f32;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0 20px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  margin-left: 80px;
+  margin-right: 0px;
+  height: 40px;
+}
+.item-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-top: 15px;
+}
+
+.add-recpie {
+  margin-top: 10px;
+  margin-left: 10px;
+  float: inline-start;
+  position: absolute;
+}
+
+.card {
+  background-color: #7c7c7c;
+  text-align: center;
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+  max-height: 100%;
+  border-radius: 5px;
+  padding: 1em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  color: white;
+}
+
+.cards2:link,
+cards2:active,
+cards2:visited {
+  text-decoration: none;
+}
+
+.card_content {
+  height: 190px;
+  overflow: hidden;
+}
+
+.formAdd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px auto 0 auto;
+  padding: 10px 10px 0 10px;
+  text-align: center;
+  width: 50%;
+  min-width: 350px;
+  background-color: #999999;
+}
+
+.create_input {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #c2c2c2;
+  box-shadow: 1px 1px 4px #ebebeb;
+  -moz-box-shadow: 1px 1px 4px #ebebeb;
+  -webkit-box-shadow: 1px 1px 4px #ebebeb;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  padding: 7px;
+  width: 90%;
+  outline: none;
+}
+.create_btn {
+  background-color: #1c89ff;
+  border-radius: 1.5rem;
+  width: 15rem;
+  border: solid 1px transparent;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: white;
+  cursor: pointer;
+  font-weight: 300;
+  transition: all 0.4s ease-in-out;
+  margin: 10px;
+
+  &:hover {
+    background-color: #5199ff;
+    border-color: #fff;
+    transition: all 0.2s ease-in-out;
+  }
+}

@@ -1,0 +1,35 @@
+.wraper {
+  font-size: 22px;
+}
+
+h1 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 48px;
+}
+h3 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 36px;
+}
+
+.wraper::after {
+  content: '';
+  background: url('../images/bg.jpg');
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.card_a {
+  background-color: #dcdcdc;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  color: white;
+  width: 17rem;
+}

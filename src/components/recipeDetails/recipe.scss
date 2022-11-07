@@ -1,0 +1,176 @@
+.container-recipe .title-recipe {
+  display: flex;
+  justify-content: center;
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.container-recipe .video {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  min-width: 390px;
+  height: 315px;
+  box-shadow: 2px 2px 15px 2px rgb(0, 0, 0, 0.5);
+}
+
+.container-recipe .recipe-details {
+  margin: 10px 0 15px 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.container-recipe .recipe-rates {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.container-recipe .recipe-media {
+  margin: 10px 0 15px 0;
+  text-align: center;
+}
+
+.container-recipe .recipe-setVote {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.container-recipe .setVoteStar {
+  color: #000000;
+  text-decoration: none;
+  background: none;
+  border: none;
+  &:hover {
+    color: #ffff00;
+  }
+}
+
+.container-recipe .recipe-description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-recipe .difficulty-level-black {
+  color: black;
+  text-align: center;
+}
+
+.container-recipe .difficulty-level-yellow {
+  color: yellow !important;
+  text-align: center;
+}
+
+.container-recipe .recipe-options {
+  margin: 25px auto 15px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #999999;
+  width: 75%;
+  border-radius: 5px;
+
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.container-recipe .recipe-ingredients {
+  margin: 15px 0 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-recipe .recipe-ingredient {
+  width: 100%;
+}
+
+.container-recipe .recipe-button {
+  background-color: #1c89ff;
+  border-radius: 1.5rem;
+  width: 15rem;
+  border: solid 1px transparent;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: white;
+  cursor: pointer;
+  font-weight: 300;
+  transition: all 0.4s ease-in-out;
+  margin: 10px;
+
+  &:hover {
+    background-color: #5199ff;
+    border-color: #fff;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+.container-recipe .comments {
+  margin: 25px 0 25px 0;
+  padding: 10px 0 10px 0;
+  width: 100%;
+  background-color: #999999;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-recipe .comments .comments-title {
+  margin: 0 auto 0 auto;
+  font-size: 1.5rem;
+}
+
+.container-recipe .comments .comment {
+  width: 95%;
+  margin: 5px auto 5px auto;
+  background-color: #666666;
+}
+
+.container-recipe .comments .comment .author {
+  margin-left: 0.75rem;
+  font-size: 1rem;
+  color: #bbbbbb;
+  float: left;
+}
+
+.container-recipe .comments .comment .date {
+  margin-right: 0.75rem;
+  font-size: 1rem;
+  color: #bbbbbb;
+  float: right;
+}
+
+.container-recipe .comments .comment .body {
+  font-size: 1rem;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+  width: 75%;
+  transform: translate(12.5%);
+}
+
+.container-recipe .recipe-add-comment {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-recipe .recipe-textArea-comment {
+  width: 75%;
+  height: 5rem;
+  resize: none;
+}
